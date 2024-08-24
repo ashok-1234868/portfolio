@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css ">
+    <script src="https://kit.fontawesome.com/20b2767d24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 style="font-size: 200%; color: rgb(255, 255, 255) ;"><span style="color: rgb(143, 0, 183); font-size: 200%;">A</span>SHOKKUMAR</h1>
+                <div id="image"></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                   
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <img src="images/as-removebg.png" alt="" style="width: 50%; height: 40%; margin-left: -15%;">
+            <div class="header-text">
+                <p style="color: rgb(137, 0, 155);">WEB DEVELOPER</p>
+                <h1>Hi, I'm <span style="color: rgb(255, 255, 255);">Ashokkumar</span> M</h1>
+                <h3>From Salem</h3>
+            </div>
+        </div>
+  
+
+    </div>
+    <!-------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="subtittle">About Me</h1>
+                    <p style="text-align: justify;">I am Ashokkumar M . I am pursuing B.E.Computer Science ,I am commited to learning skills in coding like HtML,JAVA,PYTHON,CSS and Figma tool.Through online courses.I am dedicated to mastering the intricacies of front-end and back-end development.I am driven to learn,grow and contribute meaningfully to the ever-evloving landscape of Web Development !</p>
+                    <div class="tabtittles">
+                        <p class="tablinks activelink" onclick="opentab('skills')" >SKILLS</p>
+                        <p class="tablinks" onclick="opentab('educations')">EDUCATIONS</p>
+
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br>Intermediate level</li>
+                            <li><span>PYTHON</span><br>Basic level</li>
+                            <li style="color: rgb(126, 0, 145);font-size: 20px;">HTML</li>
+                            <li style="color: rgb(126, 0, 145);font-size: 20px">CSS</li>
+                            <li style="color:  rgb(126, 0, 145);font-size: 20px">SQL</li>
+
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="educations">
+                        <ul>
+                            <li><span>SSLC</span><br>54 %</li>
+                            <li><span>HSLC</span><br>67 %</li>
+                            <li><span>BE.COMUTER SCIENCE</span><br>8.45 CGPA</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-----------Services--------------->
+   <div id="Services">
+        <div class="container">
+            <h1 class="subtittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p style="color: black;">In today’s digital age, your website is often the first interaction potential customers have with your brand. A well-designed website not only captivates visitors but also drives business growth. I specialize in creating visually appealing, user-friendly websites that not only look great but also perform exceptionally.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p style="color: black;">A great user interface (UI) and user experience (UX) are essential for keeping your visitors engaged and satisfied. I specialize in designing interfaces that are not only visually appealing but also easy to use, ensuring your users have a positive experience every time they visit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p style="color: black;">In a world full of apps, standing out is key. I design mobile apps that are not only visually stunning but also intuitive and easy to use. My goal is to create an app that not only looks great but also provides a seamless experience for your users.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+
+        </div>
+        </div>
+
+    </div>
+    <!-------------Project--------------------->
+    <div id="project">
+        <div class="container">
+            <h1 class="subtittle">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+               <img src="images/e.jpg" alt="">
+               <div class="layer">
+                <h3>E Commerce Website </h3>
+                <p>For this project, I designed and developed a fully functional e-commerce website that provides a seamless shopping experience for customers. The goal was to create a user-friendly platform that makes it easy for visitors to browse products, make purchases, and return for more</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="work">
+                <img src="images/j.jpeg" alt="">
+                <div class="layer">
+                    <h3>Food Order</h3>
+                    <p>For this project, I developed a food ordering system using Java, aimed at simplifying the ordering process for both customers and restaurant staff. The project involved designing a user-friendly interface and implementing efficient back-end processes to ensure smooth and reliable operations</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!------------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ashok1234868@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7010934868</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ashok4868"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ashok-1234868"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_ashok_ak_relax_?igsh=dmxsa2Y4bWhqNn10"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright M Ashokkumar. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+  
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbynvAUGoiR0JzVr_AU19BvAJwGt06-19zBZS7lrhRLncECods74WB7XHCTtqqFQ1KEq/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
